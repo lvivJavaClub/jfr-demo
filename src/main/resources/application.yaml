@@ -1,0 +1,12 @@
+spring:
+  cache:
+    type: redis
+    cache-names: users
+  datasource:
+    hikari:
+      maximum-pool-size: 20
+    username: javadev
+    password: secret
+
+users:
+  count: 1000
